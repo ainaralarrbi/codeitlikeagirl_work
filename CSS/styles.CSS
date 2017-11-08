@@ -7,12 +7,13 @@ h2 {
 }
 
 img{
-  height: 100px;
-  width: 900px;
+  height: 600px;
+  width: 700px;
 border: solid 10px black;
 }
 
 #first {
-  height: 100px;
-  width: 1900px;
+  height: 300px;
+  width: 1350px;
+  border: 0;
 }
