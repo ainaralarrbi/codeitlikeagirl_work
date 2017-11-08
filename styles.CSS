@@ -1,0 +1,19 @@
+h1 {
+  color: chocolate;
+}
+
+h2 {
+  color: darkred;
+}
+
+img{
+  height: 600px;
+  width: 700px;
+border: solid 10px black;
+}
+
+#first {
+  height: 300px;
+  width: 1350px;
+  border: 3px darkred;
+}
