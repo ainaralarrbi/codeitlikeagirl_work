@@ -3,7 +3,6 @@
 <head>
   <title>Student exchanges</title>
   <link rel="stylesheet" type="text/CSS" href="CSS/styles.CSS">
-  <script src="jquery"></script>
 </head>
 <body>
   <body style="background-color:blanchedalmond;">
@@ -12,7 +11,18 @@
   <p><a href="page2.html"><img id=first src="pictures/dublinnight.jpg" alt="picture of earth"></a></p>
   <p> A paragraph of text.</p>
   <p> This is <strong>bold text</strong> and this will be <em> itallic text</em>.</p>
-   <div id=map>My map will go here</div>
+  <h1>Dublin</h1>
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+    <script>
+    function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
 </body>
 </html>
